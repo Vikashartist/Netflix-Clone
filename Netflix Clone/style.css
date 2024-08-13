@@ -1,0 +1,90 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+    
+    .main-cont {
+        width: 100%;
+        height: 700px;
+        /* background-color: red; */
+        /* filter: brightness(40%); */
+        background-size: contain;
+        position: relative;
+    }
+    
+    .main-cont:before {
+        background-image: url("bg-img1.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        content: ' ';
+        position: absolute;
+        inset: 0;
+        filter: brightness(0.4);
+    }
+    
+    .nav-cont {
+        width: 100%;
+        height: 84px;
+        background-color: transparent;
+        isolation: isolate;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .nav-inr {
+        width: 100%;
+        height: 50px;
+        background-color: transparent;
+        margin-left: 16px;
+        display: flex;
+    }
+    
+    .flix-log {
+        width: 200px;
+        height: 50px;
+        background-color: transparent;
+        background-image: url("text-logo-n.png");
+        background-size: cover;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-left: 150px;
+        padding-top: 10px;
+    }
+    
+    .lang-cont {
+        width: 128px;
+        height: 34px;
+        background-color: transparent;
+        margin-left: 664px;
+        margin-top: 10px;
+        border-radius: 4px;
+        /* border: 2px solid rgb(255, 255, 255); */
+    }
+    
+    #lang-select {
+        background-color: transparent;
+        isolation: isolate;
+        width: 100%;
+        height: 34px;
+        outline: none;
+        border: none;
+        border-radius: 4px;
+        padding: 4px;
+        padding-left: 30px;
+        color: white;
+        font-size: 16px;
+        font-weight: 400;
+        appearance: none;
+        border: 1px solid rgb(126, 126, 126);
+    }
+    
+    #lang-select option {
+        color: black;
+    }
+    
+    #lang-select:hover:active {
+        border: 1px solid white;
+    }
