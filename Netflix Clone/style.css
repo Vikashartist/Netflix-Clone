@@ -1,90 +1,201 @@
-    * {
-        margin: 0px;
-        padding: 0px;
-        box-sizing: border-box;
-        text-decoration: none;
-    }
-    
-    .main-cont {
-        width: 100%;
-        height: 700px;
-        /* background-color: red; */
-        /* filter: brightness(40%); */
-        background-size: contain;
-        position: relative;
-    }
-    
-    .main-cont:before {
-        background-image: url("bg-img1.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        content: ' ';
-        position: absolute;
-        inset: 0;
-        filter: brightness(0.4);
-    }
-    
-    .nav-cont {
-        width: 100%;
-        height: 84px;
-        background-color: transparent;
-        isolation: isolate;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .nav-inr {
-        width: 100%;
-        height: 50px;
-        background-color: transparent;
-        margin-left: 16px;
-        display: flex;
-    }
-    
-    .flix-log {
-        width: 200px;
-        height: 50px;
-        background-color: transparent;
-        background-image: url("text-logo-n.png");
-        background-size: cover;
-        background-size: contain;
-        background-repeat: no-repeat;
-        margin-left: 150px;
-        padding-top: 10px;
-    }
-    
-    .lang-cont {
-        width: 128px;
-        height: 34px;
-        background-color: transparent;
-        margin-left: 664px;
-        margin-top: 10px;
-        border-radius: 4px;
-        /* border: 2px solid rgb(255, 255, 255); */
-    }
-    
-    #lang-select {
-        background-color: transparent;
-        isolation: isolate;
-        width: 100%;
-        height: 34px;
-        outline: none;
-        border: none;
-        border-radius: 4px;
-        padding: 4px;
-        padding-left: 30px;
-        color: white;
-        font-size: 16px;
-        font-weight: 400;
-        appearance: none;
-        border: 1px solid rgb(126, 126, 126);
-    }
-    
-    #lang-select option {
-        color: black;
-    }
-    
-    #lang-select:hover:active {
-        border: 1px solid white;
-    }
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.main-cont {
+    width: 100%;
+    height: 700px;
+    /* background-color: red; */
+    /* filter: brightness(40%); */
+    background-size: contain;
+    position: relative;
+}
+
+.main-cont:before {
+    background-image: url("bg-img1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    content: ' ';
+    position: absolute;
+    inset: 0;
+    filter: brightness(0.4);
+}
+
+.nav-cont {
+    width: 100%;
+    height: 84px;
+    background-color: transparent;
+    isolation: isolate;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-inr {
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    margin-left: 16px;
+    display: flex;
+}
+
+.flix-log {
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    background-image: url("text-logo-n.png");
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 150px;
+    padding-top: 10px;
+}
+
+.lang-cont {
+    width: 128px;
+    height: 34px;
+    background-color: transparent;
+    margin-left: 664px;
+    margin-top: 10px;
+    border-radius: 4px;
+    /* border: 2px solid rgb(255, 255, 255); */
+}
+
+#lang-select {
+    background-color: transparent;
+    isolation: isolate;
+    width: 100%;
+    height: 34px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    padding: 4px;
+    padding-left: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    appearance: none;
+    border: 1px solid rgb(126, 126, 126);
+}
+
+#lang-select option {
+    color: black;
+}
+
+#lang-select:hover:active {
+    border: 1px solid white;
+}
+
+.sign-in {
+    width: 78px;
+    height: 32px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    align-content: center;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 14px;
+    font-family: "Ubuntu", sans-serif;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+
+/* <!-- This si the section of main div title container section -->.*/
+
+.main-div-title {
+    width: 920px;
+    height: 300px;
+    background-color: red;
+    isolation: isolate;
+    margin-left: 17.5%;
+    margin-top: 194px;
+}
+
+.main-text-1 {
+    width: 100%;
+    height: 60px;
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    font-size: 49px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 900;
+}
+
+.main-text-2 {
+    width: 100%;
+    height: 60px;
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    background-color: red;
+    font-size: 23px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: ;
+    isolation: isolate;
+    text-align: center;
+    padding-top: 22px;
+}
+
+.main-text-3 {
+    width: 100%;
+    height: 60px;
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: ;
+    isolation: isolate;
+    text-align: center;
+    padding-top: 17px;
+}
+
+.inp-email-main {
+    width: 100%;
+    height: 70px;
+    background-color: green;
+    isolation: isolate;
+    display: flex;
+    align-items: center;
+}
+
+.email-inp-div {
+    width: 370px;
+    height: 58px;
+    background-color: yellow;
+    margin-left: 166px;
+    border-radius: 4px;
+}
+
+.email-inp-div input {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    padding-left: 14px;
+    font-size: 14px;
+    border: 1px solid rgb(224, 224, 224);
+}
+
+.get-started-div {
+    width: 206px;
+    height: 58px;
+    background-color: rgb(255, 0, 0);
+    margin-left: 8px;
+    border-radius: 4px;
+    color: white;
+    padding-left: 18px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    align-content: center;
+    padding-left: 18px;
+    <i class="ri-arrow-right-wide-line"></i>
+}
